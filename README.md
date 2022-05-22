@@ -43,11 +43,9 @@ $ cd SmartForDX
 
 ```bash
 $ yarn install
-```
 # or
-
-```bash
 $ npm install
+
 ```
 
 ### Install ios PODs
