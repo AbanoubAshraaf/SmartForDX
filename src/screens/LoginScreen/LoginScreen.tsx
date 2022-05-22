@@ -14,7 +14,10 @@ export const LoginScreen = () => {
     const [password, onChangePassword] = useState('');
 
     return (
-        <ScrollView style={styles.container} contentContainerStyle={{ flex: 1 }}>
+        <ScrollView
+            testID="login-screen"
+            style={styles.container}
+            contentContainerStyle={{ flex: 1 }}>
             <Image source={icons.s4dx} style={styles.logo} resizeMode="contain" />
             <View style={{ marginTop: 20 }}>
                 <TextInput
