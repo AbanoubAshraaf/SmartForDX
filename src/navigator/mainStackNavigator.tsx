@@ -9,6 +9,7 @@ import { LoginScreen } from '../screens/LoginScreen';
 import { HomeScreen } from '../screens/HomeScreen';
 import { colors, icons } from '../appStyles';
 import { Image, TouchableOpacity } from 'react-native';
+import { OrderScreen } from '../screens/OrderScreen';
 
 export type RootStackParamList = {
     readonly Login: undefined;
@@ -53,6 +54,13 @@ export const MainStackNavigator = () => {
                     <Stack.Screen
                         name="Home"
                         component={HomeScreen}
+                        options={{
+                            headerRight: () => <LogoutIcon />,
+                        }}
+                    />
+                    <Stack.Screen
+                        name="Order"
+                        component={OrderScreen}
                         options={{
                             headerRight: () => <LogoutIcon />,
                         }}
