@@ -4,10 +4,10 @@ import {
     NativeStackNavigationProp,
 } from '@react-navigation/native-stack';
 
-import Welcome from '../../Welcome';
+import { LoginScreen } from '../screens/LoginScreen';
 
 export type RootStackParamList = {
-    readonly Welcome: undefined;
+    readonly Login: undefined;
 };
 export type RootStackNavigation = NativeStackNavigationProp<RootStackParamList>;
 
@@ -16,7 +16,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 export const MainStackNavigator = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Welcome" component={Welcome} />
+            <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Welcome' }} />
         </Stack.Navigator>
     );
 };
