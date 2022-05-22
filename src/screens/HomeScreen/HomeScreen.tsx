@@ -28,7 +28,7 @@ export const HomeScreen = () => {
     };
 
     return (
-        <ScrollView style={styles.container}>
+        <ScrollView testID="home-screen" style={styles.container}>
             <Text style={styles.userName}>{name + ' ' + lastName}</Text>
             <TextInput
                 testID="sample-identifier-input"

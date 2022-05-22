@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { IReduxState } from '../redux/interface';
 import { LoginScreen } from '../screens/LoginScreen';
 import { HomeScreen } from '../screens/HomeScreen';
-import { OrderScreen } from '../screens/OrderScreen';
 import { colors, icons } from '../appStyles';
 import { Image, TouchableOpacity } from 'react-native';
 
