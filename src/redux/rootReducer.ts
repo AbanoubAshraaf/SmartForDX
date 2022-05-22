@@ -8,7 +8,7 @@ import { authenticationReducer } from './authentication';
 const persistConfig = {
     key: 'root',
     storage: EncryptedStorage,
-    whitelist: [],
+    whitelist: ['authReducer'],
 };
 
 const appReducer = persistCombineReducers(persistConfig, {
