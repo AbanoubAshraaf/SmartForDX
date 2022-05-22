@@ -3,14 +3,13 @@
 ## Contents
 
 - [S4DX](#s4dx)
-  - [Contents](#contents)
   - [Used Technologies](#used-technologies)
   - [Screenshots](#screenshots-for-the-app)
   - [App Icon for IOS & android](#app-icon-for-ios--android)
   - [Setup instructions:](#setup-instructions)
   - [Insall all dependencies](#install-all-dependencies)
   - [Install ios PODs](#install-ios-pods)
-  - [Testing](#how-to-test-app)
+  - [How to test app](#how-to-test-app)
   - [Run the application](#run-the-application)
   - [Available Scripts](#available-scripts)
   - [File Structure](#file-structure)
