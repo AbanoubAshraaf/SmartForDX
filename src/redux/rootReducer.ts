@@ -9,7 +9,7 @@ import { patientReducer } from './patient';
 const persistConfig = {
     key: 'root',
     storage: EncryptedStorage,
-    whitelist: ['authReducer', 'orderReducer'],
+    whitelist: ['authReducer', 'orderReducer', 'patientReducer'],
 };
 
 const appReducer = persistCombineReducers(persistConfig, {
