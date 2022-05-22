@@ -3,13 +3,13 @@
 ## Contents
 
 - [S4DX](#s4dx)
-  - [Contents](#contents)
   - [Used Technologies](#used-technologies)
   - [Screenshots](#screenshots-for-the-app)
   - [App Icon for IOS & android](#app-icon-for-ios--android)
   - [Setup instructions:](#setup-instructions)
-  - [Insall all dependencies](#insall-all-dependencies)
+  - [Insall all dependencies](#install-all-dependencies)
   - [Install ios PODs](#install-ios-pods)
+  - [How to test app](#how-to-test-app)
   - [Run the application](#run-the-application)
   - [Available Scripts](#available-scripts)
   - [File Structure](#file-structure)
@@ -54,12 +54,10 @@ $ git clone https://github.com/AbanoubAshraaf/SmartForDX.git
 $ cd SmartForDX
 ```
 
-### Insall all dependencies
+### Install all dependencies
 
 ```bash
 $ yarn install
-# or
-$ npm install
 
 ```
 
@@ -68,6 +66,16 @@ $ npm install
 ```bash
 $ cd ios => pod install => cd ..
 ```
+
+### How to test app
+
+```bash
+$ yarn test
+# or
+$ npm run test
+
+```
+
 
 ### Run the application
 
