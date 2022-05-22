@@ -31,7 +31,7 @@
 - [ESLint](https://eslint.org/)
 
 
-## screenshots for the app
+## Screenshots for the app
 - [Press here to see screenshots](https://github.com/AbanoubAshraaf/SmartForDX/tree/implement-order-module/screenshots)
 
 ```bash
