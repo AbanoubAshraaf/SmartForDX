@@ -2,13 +2,21 @@
 
 ## Contents
 
-- [Used Technologies](#-Used-Technologies)
-- [App Icon](#-App-Icon-for-IOS-&-android)
-- [Setup instructions](#-Setup-instructions)
-- [Insall all dependencies](#-insall-all-dependencies)
-- [Install ios PODs](#-Install-ios-PODs)
-- [Run the application](#-Run-the-application)
-- [Available Scripts](#-Available-Scripts)
+- [S4DX](#s4dx)
+  - [Contents](#contents)
+  - [Used Technologies](#used-technologies)
+  - [App Icon for IOS & android](#app-icon-for-ios--android)
+  - [Setup instructions:](#setup-instructions)
+  - [Insall all dependencies](#insall-all-dependencies)
+  - [Install ios PODs](#install-ios-pods)
+  - [Run the application](#run-the-application)
+  - [Available Scripts](#available-scripts)
+  - [File Structure](#file-structure)
+
+
+<img src="/repository/screenshots/screenshot1.png" alt="Login Screen" width="200" /> <img src="/repository/screenshots/screenshot2.png" alt="Home Screen" width="200" /> <img src="/repository/screenshots/screenshot3.png" alt="Order Screen" width="200" />
+
+
 
 
 ## Used Technologies
