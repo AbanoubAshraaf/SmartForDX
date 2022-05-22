@@ -1,4 +1,4 @@
-import { IAction, IOrderReducerState, orderActionTypes } from './order.interface';
+import { IOrderReducerState, orderActionTypes } from './order.interface';
 
 export class orderReducer {
     static INITIAL_STATE: IOrderReducerState = {
