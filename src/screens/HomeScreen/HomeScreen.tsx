@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
 import { ScrollView, Text, TextInput } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { CustomButton } from '../../components/CustomButton';
-import { RootStackNavigation } from '../../navigator/mainStackNavigator';
 import { IReduxState } from '../../redux/interface';
 import { orderActions } from '../../redux/order';
 import { styles } from './HomeScreen.styles';
