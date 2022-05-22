@@ -1,4 +1,4 @@
-import { authActionTypes, IAction, IAuthenticationReducerState } from './authentication.interface';
+import { authActionTypes, IAuthenticationReducerState } from './authentication.interface';
 
 export class authenticationReducer {
     static INITIAL_STATE: IAuthenticationReducerState = {
@@ -11,7 +11,7 @@ export class authenticationReducer {
         userLoggedIn: false,
     };
 
-    static reduce = (state = authenticationReducer.INITIAL_STATE, action: IAction) => {
+    static reduce = (state = authenticationReducer.INITIAL_STATE, action: Record<string, any>) => {
         switch (action.type) {
             case authActionTypes.SET_USER_DATA:
                 return { ...state, ...action.userData };
