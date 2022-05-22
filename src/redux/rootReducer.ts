@@ -4,6 +4,7 @@ import { persistCombineReducers } from 'redux-persist';
 import { uiReducer } from './ui/uiReducer';
 import { orderReducer } from './order';
 import { IReduxState } from './interface';
+import { patientReducer } from './patient';
 
 const persistConfig = {
     key: 'root',
@@ -15,6 +16,7 @@ const appReducer = persistCombineReducers(persistConfig, {
     authReducer: authenticationReducer.reduce,
     uiReducer: uiReducer.reduce,
     orderReducer: orderReducer.reduce,
+    patientReducer: patientReducer.reduce,
 });
 
 export const rootReducer = (state: IReduxState | undefined, action: Record<string, any>) => {
