@@ -1,19 +1,20 @@
-import { persistCombineReducers } from 'redux-persist';
 import EncryptedStorage from 'react-native-encrypted-storage';
-
-import { IReduxState } from './interface';
-import { uiReducer } from './ui';
 import { authenticationReducer } from './authentication';
+import { persistCombineReducers } from 'redux-persist';
+import { uiReducer } from './ui/uiReducer';
+import { orderReducer } from './order';
+import { IReduxState } from './interface';
 
 const persistConfig = {
     key: 'root',
     storage: EncryptedStorage,
-    whitelist: ['authReducer'],
+    whitelist: ['authReducer', 'orderReducer'],
 };
 
 const appReducer = persistCombineReducers(persistConfig, {
-    uiReducer: uiReducer.reduce,
     authReducer: authenticationReducer.reduce,
+    uiReducer: uiReducer.reduce,
+    orderReducer: orderReducer.reduce,
 });
 
 export const rootReducer = (state: IReduxState | undefined, action: Record<string, any>) => {
