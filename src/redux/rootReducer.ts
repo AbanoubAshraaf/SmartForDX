@@ -3,6 +3,7 @@ import EncryptedStorage from 'react-native-encrypted-storage';
 
 import { IReduxState } from './interface';
 import { uiReducer } from './ui';
+import { authenticationReducer } from './authentication';
 
 const persistConfig = {
     key: 'root',
@@ -12,6 +13,7 @@ const persistConfig = {
 
 const appReducer = persistCombineReducers(persistConfig, {
     uiReducer: uiReducer.reduce,
+    authReducer: authenticationReducer.reduce,
 });
 
 export const rootReducer = (state: IReduxState | undefined, action: Record<string, any>) => {
