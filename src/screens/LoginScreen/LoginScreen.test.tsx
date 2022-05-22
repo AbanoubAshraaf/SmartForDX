@@ -11,7 +11,7 @@ describe('<LoginScreen />', () => {
     const initialState = {
         authReducer: {},
         uiReducer: {},
-    } as unknown as IReduxState;
+    } as IReduxState;
     const mockStore = configureStore();
     let store = mockStore(initialState);
 
