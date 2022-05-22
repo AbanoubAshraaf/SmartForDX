@@ -53,4 +53,9 @@ describe('<HomeScreen />', () => {
         fireEvent.changeText(sampleInput, newValue);
         expect(sampleInput.props.value).toMatch(newValue);
     });
+    it('should navigate directly if order data fetched before', () => {
+        const { getByText } = render(<ReduxHomeScreen />);
+        fireEvent.press(getByText('Submit'));
+        expect(mockNavigate).toHaveBeenCalledWith('Order');
+    });
 });
