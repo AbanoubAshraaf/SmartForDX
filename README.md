@@ -68,7 +68,7 @@ $ yarn install
 $ cd ios => pod install => cd ..
 ```
 
-### How  to test app
+### How to test app
 
 ```bash
 $ yarn test
