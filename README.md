@@ -4,6 +4,7 @@
 
 - [S4DX](#s4dx)
   - [Contents](#contents)
+  - [Screenshots](#Screenshots)
   - [Used Technologies](#used-technologies)
   - [App Icon for IOS & android](#app-icon-for-ios--android)
   - [Setup instructions:](#setup-instructions)
@@ -14,8 +15,8 @@
   - [File Structure](#file-structure)
 
 
-<img src="/repository/screenshots/screenshot1.png" alt="Login Screen" width="200" /> <img src="/repository/screenshots/screenshot2.png" alt="Home Screen" width="200" /> <img src="/repository/screenshots/screenshot3.png" alt="Order Screen" width="200" />
-
+## Screenshots for the app
+- [Screenshots](https://github.com/AbanoubAshraaf/SmartForDX/tree/implement-order-module/screenshots)
 
 
 
@@ -24,12 +25,14 @@
 - [TypeScript](https://reactnative.dev/docs/typescript)
 - [React Redux](https://react-redux.js.org/)
 - [Redux Saga](https://redux-saga.js.org/)
+- [React Native Encrypted Storage](https://www.npmjs.com/package/react-native-encrypted-storage)
 - [React Navigation](https://reactnavigation.org/docs/getting-started)
 - [Unit Testing](https://reactnative.dev/docs/testing-overview)
 - [Jest](https://jestjs.io)
 - [React Native Testing Library](https://callstack.github.io/react-native-testing-library/)
 - [React Hooks](https://reactjs.org/docs/hooks-overview.html)
 - [ESLint](https://eslint.org/)
+
 
 
 ## App Icon for IOS & android
