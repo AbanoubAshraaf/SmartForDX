@@ -1,10 +1,11 @@
 # S4DX
 
+<img src="./screenshots/screenshot1.png" alt="Login Screen" width="200" /> <img src="./screenshots/screenshot2.png" alt="Home Screen" width="200" /> <img src="./screenshots/screenshot3.png" alt="Order Screen" width="200" />
+
 ## Contents
 
 - [S4DX](#s4dx)
   - [Used Technologies](#used-technologies)
-  - [Screenshots](#screenshots-for-the-app)
   - [App Icon for IOS & android](#app-icon-for-ios--android)
   - [Setup instructions:](#setup-instructions)
   - [Insall all dependencies](#install-all-dependencies)
@@ -31,14 +32,7 @@
 - [ESLint](https://eslint.org/)
 
 
-## Screenshots for the app
-- [Press here to see screenshots](https://github.com/AbanoubAshraaf/SmartForDX/tree/implement-order-module/screenshots)
 
-```bash
-# OR you can find it in this path
-
-'Repository/screenshots'
-```
 ## App Icon for IOS & android
 
 - [App icon](https://www.google.com/search?q=s4dx+image&tbm=isch&ved=2ahUKEwjT5peOivT3AhWPaPEDHXQKBJoQ2-cCegQIABAA&oq=s4dx+image&gs_lcp=CgNpbWcQAzIECCMQJzoICAAQgAQQsQM6BQgAEIAEOgQIABATOggIABAeEAUQE1CwBljgFWDRGmgAcAB4AIAB0wGIAeIOkgEFMC45LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=za6KYpPMGY_Rxc8P9JSQ0Ak&bih=754&biw=1536&rlz=1C1SQJL_enEG845EG845#imgrc=QA3_aXaMR1SPvM)
