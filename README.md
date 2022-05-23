@@ -1,10 +1,11 @@
 # S4DX
 
+<img src="./screenshots/screenshot1.png" alt="Login Screen" width="200" /> <img src="./screenshots/screenshot2.png" alt="Home Screen" width="200" /> <img src="./screenshots/screenshot3.png" alt="Order Screen" width="200" />
+
 ## Contents
 
 - [S4DX](#s4dx)
   - [Used Technologies](#used-technologies)
-  - [Screenshots](#screenshots-for-the-app)
   - [App Icon for IOS & android](#app-icon-for-ios--android)
   - [Setup instructions:](#setup-instructions)
   - [Insall all dependencies](#install-all-dependencies)
@@ -31,8 +32,6 @@
 - [ESLint](https://eslint.org/)
 
 
-## Screenshots for the app
-<img src="./screenshots/screenshot1.png" alt="Login Screen" width="200" /> <img src="./screenshots/screenshot2.png" alt="Home Screen" width="200" /> <img src="./screenshots/screenshot3.png" alt="Order Screen" width="200" />
 
 ## App Icon for IOS & android
 
